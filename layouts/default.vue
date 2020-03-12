@@ -105,9 +105,9 @@
           </template>
           <el-menu-item @click="onSignOut">退出</el-menu-item>
         </el-submenu>
-        <el-menu-item v-if="!user">
+        <!-- <el-menu-item v-if="!user">
           <a @click="onLogin">注册 / 登录</a>
-        </el-menu-item>
+        </el-menu-item> -->
       </el-menu>
     </div>
 

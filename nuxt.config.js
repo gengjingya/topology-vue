@@ -24,6 +24,10 @@ export default {
       {
         rel: 'stylesheet',
         href: '//at.alicdn.com/t/font_1331132_5lvbai88wkb.css'
+      },
+      {
+        rel: 'stylesheet',
+        href: '//at.alicdn.com/t/font_1682493_qhgsr5zg4l.css'
       }
     ]
   },

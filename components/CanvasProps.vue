@@ -1,7 +1,7 @@
 <template>
   <div>
     <!-- 选中为空 -->
-    <div v-if="!props.node && !props.line && !props.multi">
+    <!-- <div v-if="!props.node && !props.line && !props.multi">
       <div class="title">欢迎使用le5le-topology！</div>
       <div class="group">
         <a class="star" href="https://github.com/le5le-com/topology" target="_blank">喜欢，点击这里打个star吧</a>
@@ -33,7 +33,7 @@
           <li>添加或选中节点，右侧属性支持上传各种图片哦</li>
         </ul>
       </div>
-    </div>
+    </div> -->
     <!-- 选中节点 -->
     <div v-if="props.node">
       <div class="title">位置和大小</div>

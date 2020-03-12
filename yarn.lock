@@ -8279,6 +8279,13 @@ topology-class-diagram@^0.0.1:
   dependencies:
     topology-core "^0.0.3"
 
+topology-core@0.2.1-beta:
+  version "0.2.1-beta"
+  resolved "https://registry.npm.taobao.org/topology-core/download/topology-core-0.2.1-beta.tgz#0984eeb8458816f7156fd747190b63a96172205e"
+  integrity sha1-CYTuuEWIFvcVb9dHGQtjqWFyIF4=
+  dependencies:
+    le5le-store "^1.0.2"
+
 topology-core@^0.0.2:
   version "0.0.2"
   resolved "https://registry.npm.taobao.org/topology-core/download/topology-core-0.0.2.tgz#ed84aad61178cae69a0d2d43e02b96acbcec306b"
@@ -8288,13 +8295,6 @@ topology-core@^0.0.3:
   version "0.0.3"
   resolved "https://registry.npm.taobao.org/topology-core/download/topology-core-0.0.3.tgz#ee001ff3ee33d71ac8068e3a977c01dd10fbe8e7"
   integrity sha1-7gAf8+4z1xrIBo46l3wB3RD76Oc=
-
-topology-core@^0.1.9:
-  version "0.1.9"
-  resolved "https://registry.npm.taobao.org/topology-core/download/topology-core-0.1.9.tgz#fbda9d58e18d63dabc1ff302e408026714b37cdc"
-  integrity sha1-+9qdWOGNY9q8H/MC5AgCZxSzfNw=
-  dependencies:
-    le5le-store "^1.0.2"
 
 topology-flow-diagram@^0.0.1:
   version "0.0.1"

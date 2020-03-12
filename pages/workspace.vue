@@ -16,7 +16,11 @@
         </div>
       </div>
     </div>
-    <div id="topology-canvas" class="full" @contextmenu="onContextMenu($event)"></div>
+    <div id="topology-canvas" 
+        class="full" 
+        style='
+        background:url("/img/logo.png") 45% 0% / 450px 600px no-repeat rgb(255, 255, 255)'
+        @contextmenu="onContextMenu($event)"></div>
     <div class="props">
       <CanvasProps :props.sync="props" @change="onUpdateProps"></CanvasProps>
     </div>
