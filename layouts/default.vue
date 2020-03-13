@@ -3,11 +3,11 @@
     <!-- 顶部导航栏 -->
     <div class="headers">
       <el-menu mode="horizontal" @select="onMenu" background-color="#f8f8f8">
-        <el-menu-item class="logo">
+        <!-- <el-menu-item class="logo">
           <nuxt-link to="/">
             <img src="/favicon.ico" />
           </nuxt-link>
-        </el-menu-item>
+        </el-menu-item> -->
         <el-submenu index="file">
           <template slot="title">文件</template>
           <el-menu-item index="new">新建文件</el-menu-item>
@@ -27,7 +27,7 @@
           <el-menu-item index="cut">剪切</el-menu-item>
           <el-menu-item index="parse">粘贴</el-menu-item>
         </el-submenu>
-        <el-submenu index="share">
+        <!-- <el-submenu index="share">
           <template slot="title">社区</template>
           <el-menu-item index="about">咨询与建议</el-menu-item>
           <el-menu-item>
@@ -36,7 +36,7 @@
           <el-menu-item>
             <a href="https://www.yuque.com/alsmile/topology" target="_blank">开发文档</a>
           </el-menu-item>
-        </el-submenu>
+        </el-submenu> -->
         <el-submenu index="help">
           <template slot="title">帮助</template>
           <el-menu-item>
@@ -130,7 +130,7 @@
         <el-button type="primary" @click="about = false">确定</el-button>
       </span>
     </el-dialog>
-    <el-dialog title="许可与声明" :visible.sync="license" width="30%">
+    <!-- <el-dialog title="许可与声明" :visible.sync="license" width="30%">
       <p>本项目开源，支持MIT协议。希望大家一起参与维护！</p>
       <p>所有权和解释权归le5le.com和开发者Alsmile所有！</p>
       <p>@2019 le5le.com</p>
@@ -153,7 +153,7 @@
       <span slot="footer" class="dialog-footer">
         <el-button type="primary" @click="joinin = false">确定</el-button>
       </span>
-    </el-dialog>
+    </el-dialog> -->
   </div>
 </template>
 

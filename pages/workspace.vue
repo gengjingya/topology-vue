@@ -18,8 +18,6 @@
     </div>
     <div id="topology-canvas" 
         class="full" 
-        style='
-        background:url("/img/logo.png") 45% 0% / 450px 600px no-repeat rgb(255, 255, 255)'
         @contextmenu="onContextMenu($event)"></div>
     <div class="props">
       <CanvasProps :props.sync="props" @change="onUpdateProps"></CanvasProps>
@@ -265,12 +263,12 @@ export default {
         new Blob([JSON.stringify(this.canvas.data)], {
           type: 'text/plain;charset=utf-8'
         }),
-        `le5le.topology.json`
+        `volleyball.json`
       )
     },
 
     handle_savePng(data) {
-      this.canvas.saveAsImage('le5le.topology.png')
+      this.canvas.saveAsImage('volleyball.png')
     },
 
     handle_saveSvg(data) {
@@ -419,7 +417,7 @@ export default {
 
   .props {
     flex-shrink: 0;
-    width: 2.4rem;
+    width: 3rem;
     padding: 0.1rem 0;
     background-color: #f8f8f8;
     border-left: 1px solid #d9d9d9;
